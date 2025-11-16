@@ -1,7 +1,6 @@
 baseURL = "https://anwaltzuerich.org/"
 languageCode = "de-ch"
 title = "Lokale Dienstleister – Rank & Rent Template"
-theme = ""
 paginate = 10
 
 [params]
