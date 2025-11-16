@@ -1,0 +1,37 @@
+baseURL = "https://anwaltzuerich.org/"
+languageCode = "de-ch"
+title = "Lokale Dienstleister – Rank & Rent Template"
+theme = ""
+paginate = 10
+
+[params]
+  siteName = "Lokale Dienstleister"
+  tagline = "Schnelle Hilfe in Ihrer Region"
+  logo = "/images/logo-placeholder.svg"
+  primaryColor = "#0d6efd"
+
+[menu]
+  [[menu.main]]
+    name = "Startseite"
+    url  = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Dienstleistungen"
+    url  = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Standorte"
+    url  = "/locations/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Kontakt"
+    url  = "/pages/contact/"
+    weight = 5

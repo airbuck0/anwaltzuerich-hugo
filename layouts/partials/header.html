@@ -1,0 +1,12 @@
+<header class="site-header">
+<div class="container header-inner">
+<a href="/" class="logo"><img src="/images/logo-placeholder.svg" alt="Logo"></a>
+<nav class="main-nav">
+<ul>
+{{ range .Site.Menus.main }}
+<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{ end }}
+</ul>
+</nav>
+</div>
+</header>

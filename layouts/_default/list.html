@@ -1,0 +1,12 @@
+{{ define "main" }}
+<header class="page-header">
+<h1>{{ .Title }}</h1>
+</header>
+<section class="list">
+{{ range .Pages.ByWeight }}
+<article class="card">
+<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+</article>
+{{ end }}
+</section>
+{{ end }}
